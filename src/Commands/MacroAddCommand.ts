@@ -3,7 +3,7 @@ import { RichEmbed }                                      from 'discord.js';
 import { Macro }                                          from '../DB/Macro';
 
 /**
- * Replies back to the user with "pong!"
+ * Adds a new macro.Ex: ++add name=test message=this is a test macro
  */
 @Command
 export class MacroAddCommand extends CommandBase {
